@@ -111,7 +111,7 @@ const educationInfo = {
   schools: [
     {
       schoolName: "University of Maryland",
-      logo: require("./assets/images/umdlogo.png"), // You'll need to add this image
+      logo: require("./assets/images/umdnewlogo.svg"), // You'll need to add this image
       subHeader: "Master's in Applied Machine Learning",
       duration: "August 2024 - Present",
       desc: "GPA: 3.45/4.0",
@@ -167,7 +167,7 @@ const workExperiences = {
     {
       role: "Business Intelligence Analyst",
       company: "GlaxoSmithKline",
-      companylogo: require("./assets/images/gsklogo.png"), // Add GSK logo
+      companylogo: require("./assets/images/gsknewlogo.png"), // Add GSK logo
       date: "Jan 2024 – Jul 2024",
       desc: "Created and maintained 10+ Power BI dashboards within the Digital Listening Platform",
       descBullets: [
@@ -203,7 +203,7 @@ const workExperiences = {
     {
       role: "Student Intern",
       company: "Cisco",
-      companylogo: require("./assets/images/cisco.png"),
+      companylogo: require("./assets/images/cisconewlogo.png"),
       date: "Aug 2019 – Feb 2020",
       desc: "Built and deployed secure Event Management System used by 1,200+ students across 3 institutions",
       descBullets: [
@@ -252,7 +252,7 @@ const bigProjects = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false// Set false to hide this section, defaults to true
 };
 
 // Achievement Section
