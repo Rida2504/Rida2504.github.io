@@ -37,7 +37,7 @@ const socialMediaLinks = {
   linkedin: "https://linkedin.com/in/ridajavedkutty/",
   gmail: "rkutty@umd.edu",
   scholar: "https://scholar.google.com/citations?user=g-yeQDIAAAAJ&hl=en&oi=ao",
-  ,
+  
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
