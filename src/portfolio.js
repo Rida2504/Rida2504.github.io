@@ -20,7 +20,7 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Rida Javed Kutty",
+  username: "Rida Jaaved Kutty",
   title: "Hi all, I'm Rida",
   subTitle: emoji(
     "AI/ML engineer with practical experience in developing and deploying machine learning solutions across NLP, Computer Vision, and Analytics"
