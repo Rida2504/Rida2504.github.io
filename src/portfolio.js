@@ -111,7 +111,7 @@ const educationInfo = {
   schools: [
     {
       schoolName: "University of Maryland",
-      logo: require("./assets/images/umdnewlogo.svg"), // You'll need to add this image
+      logo: require("./assets/images/umdnew1logo.png"), // You'll need to add this image
       subHeader: "Master's in Applied Machine Learning",
       duration: "August 2024 - Present",
       desc: "GPA: 3.45/4.0",
@@ -144,15 +144,15 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
+      Stack: "Machine Learning and Real-Time Analytics", //Insert stack or technology you have experience in
       progressPercentage: "90%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
+      Stack: "Data Engineering & Backend Systems",
       progressPercentage: "70%"
     },
     {
-      Stack: "Programming",
+      Stack: "Data Visualization & BI Tools",
       progressPercentage: "60%"
     }
   ],
