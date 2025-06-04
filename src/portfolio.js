@@ -20,26 +20,24 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Rida Javed Kutty",
+  title: "Hi all, I'm Rida",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "AI/ML engineer with practical experience in developing and deploying machine learning solutions across NLP, Computer Vision, and Analytics"
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1oU5XuZKK21U0UqKknKaLXNzlqWzteonT/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/Rida2504",
+  linkedin: "https://linkedin.com/in/ridajavedkutty/",
+  gmail: "rkutty@umd.edu",
+  scholar: "https://scholar.google.com/citations?user=g-yeQDIAAAAJ&hl=en&oi=ao",
+  ,
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -49,100 +47,93 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "AI/ML ENGINEER WHO LOVES TO BUILD SCALABLE MACHINE LEARNING SYSTEMS",
   skills: [
-    emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
-    ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
+    emoji("⚡ Building production-ready ML models with 85%+ accuracy"),
+    emoji("⚡ Creating real-time analytics dashboards serving 20+ global teams"),
+    emoji("⚡ Developing Computer Vision systems"),
+    emoji("⚡ Implementing NLP solutions"),
+    emoji("⚡ Building end-to-end data pipelines with Kafka, Spark, and Snowflake")
   ],
-
-  /* Make Sure to include correct Font Awesome Classname to view your icon
-https://fontawesome.com/icons?d=gallery */
-
   softwareSkills: [
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
-    },
-    {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
+      skillName: "Python",
       fontAwesomeClassname: "fab fa-python"
     },
     {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
+      skillName: "TensorFlow",
+      fontAwesomeClassname: "fas fa-fire"
+    },
+    {
+      skillName: "PyTorch",
+      fontAwesomeClassname: "fas fa-bolt"
+    },
+    {
+      skillName: "Apache Kafka",
+      fontAwesomeClassname: "fas fa-stream"
+    },
+    {
+      skillName: "Apache Spark",
+      fontAwesomeClassname: "fas fa-database"
+    },
+    {
+      skillName: "AWS",
+      fontAwesomeClassname: "fab fa-aws"
+    },
+    {
+      skillName: "Power BI",
+      fontAwesomeClassname: "fas fa-chart-bar"
+    },
+    {
+      skillName: "MySQL",
+      fontAwesomeClassname: "fas fa-database"
+    },
+    {
+      skillName: "NLP",
+      fontAwesomeClassname: "fas fa-comments"
+    },
+    {
+      skillName: "Computer Vision",
+      fontAwesomeClassname: "fas fa-eye"
+    },
+    {
+      skillName: "Git",
+      fontAwesomeClassname: "fab fa-git-alt"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true
 };
 
 // Education Section
 
 const educationInfo = {
-  display: true, // Set false to hide this section, defaults to true
+  display: true,
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "University of Maryland",
+      logo: require("./assets/images/umdlogo.png"), // You'll need to add this image
+      subHeader: "Master's in Applied Machine Learning",
+      duration: "August 2024 - Present",
+      desc: "GPA: 3.45/4.0",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Focusing on advanced ML algorithms and production systems",
+        "Research in Computer Vision and NLP applications",
+        "Specialized coursework in Deep Learning, Data Engineering, and MLOps",
+        "Working on real-world ML projects with industry applications"
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "PES University",
+      logo: require("./assets/images/peslogo.png"), // You'll need to add this image
+      subHeader: "Bachelor of Technology in Computer Science and Engineering",
+      duration: "August 2020 - May 2024",
+      desc: "GPA: 3.3/4.0",
+      descBullets: [
+        "Core CS fundamentals: Data Structures, Algorithms, and Software Engineering",
+        "Specialized in Machine Learning, Computer Vision, and Natural Language Processing",
+        "Published research papers in IEEE and Springer conferences",
+        "Led multiple AI/ML projects including fire detection systems and plant disease detection"
+      ]
     }
   ]
 };
@@ -171,36 +162,58 @@ const techStack = {
 // Work experience section
 
 const workExperiences = {
-  display: true, //Set it to true to show workExperiences Section
+  display: true,
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Business Intelligence Analyst",
+      company: "GlaxoSmithKline",
+      companylogo: require("./assets/images/gsklogo.png"), // Add GSK logo
+      date: "Jan 2024 – Jul 2024",
+      desc: "Created and maintained 10+ Power BI dashboards within the Digital Listening Platform",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Enabled real-time analysis of campaign and drug performance across 5+ social media channels",
+        "Collaborated with 20+ Local Operating Companies to optimize regional marketing strategies",
+        "Drove engagement improvements by up to 30% through actionable insights"
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "AI/ML Research Intern",
+      company: "Centre of CCTV Research - RVCE",
+      companylogo: require("./assets/images/rvcelogo.jpeg"),
+      date: "Jun 2023 – Jan 2024",
+      desc: "Engineered real-time fire and smoke detection system leveraging YOLOv8",
+      descBullets: [
+        "Achieved 85% precision in hazard detection with comprehensive performance metrics",
+        "Conducted 100+ test iterations across 5 environmental conditions",
+        "Contributed to data-driven analysis of system effectiveness and detection insights"
+      ]
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "NLP Research Intern",
+      company: "Microsoft Innovation Lab",
+      companylogo: require("./assets/images/pillogo.jpeg"),
+      date: "Jun 2022 – Aug 2022",
+      desc: "Designed and developed web application for detecting contradictions between sentence pairs",
+      descBullets: [
+        "Fine-tuned BERT and DistilBERT on custom-labelled dataset of 110,000+ sentences",
+        "Achieved 81.4% accuracy in contradiction classification across 4 predefined categories",
+        "Enhanced detection accuracy by 10% through hyper-parameter tuning of transformer models"
+      ]
+    },
+    {
+      role: "Student Intern",
+      company: "Cisco",
+      companylogo: require("./assets/images/cisco.png"),
+      date: "Aug 2019 – Feb 2020",
+      desc: "Built and deployed secure Event Management System used by 1,200+ students across 3 institutions",
+      descBullets: [
+        "Designed 3 role-based dashboards with access controls reducing administrative overhead by 30%",
+        "Streamlined event registration process, reducing manual coordination by 60%",
+        "Achieved 99.9% uptime using HTML, CSS, JavaScript, Bootstrap, AWS, and Git/GitHub"
+      ]
     }
   ]
 };
-
 /* Your Open Source Section to View Your Github Pinned Projects
 To know how to get github key look at readme.md */
 
@@ -300,7 +313,61 @@ const achievementSection = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
+};
+
+
+const publicationsSection = {
+  title: "Publications",
+  subtitle: "MY PUBLISHED RESEARCH WORK IN AI/ML AND COMPUTER SCIENCE",
+  display: true,
+  publications: [
+    {
+      title: "Secure Blockchain for Admission Processing in Educational Institutions",
+      authors: "Rida Javed Kutty, Nazura Javed",
+      conference: "IEEE Xplore",
+      date: "April 2021",
+      url: "https://ieeexplore.ieee.org/abstract/document/9402654/",
+      description: "Proposed a blockchain-based solution for secure and transparent admission processing in educational institutions.",
+      tags: ["Blockchain", "Security", "Education Technology"]
+    },
+    {
+      title: "Detecting Fine-Grained Emotions from COVID-19 Tweets using Transformer-based Architecture",
+      authors: "Rida Javed Kutty, Nazura Javed, Rahul Mallya",
+      conference: "IEEE Xplore",
+      date: "2023",
+      url: "https://ieeexplore.ieee.org/document/10420305",
+      description: "Developed transformer-based models to detect nuanced emotional patterns in COVID-19 related social media content.",
+      tags: ["NLP", "Transformers", "Sentiment Analysis", "Social Media"]
+    },
+    {
+      title: "DisContNet: Contradiction Detection in Texts using Transformers",
+      authors: "Rida Javed Kutty, Roshni PN, Shreya S Adiga",
+      conference: "IEEE Xplore",
+      date: "2023",
+      url: "https://ieeexplore.ieee.org/abstract/document/10585189",
+      description: "Implemented BERT and DistilBERT models for detecting contradictions in text pairs with 81.4% accuracy.",
+      tags: ["NLP", "BERT", "Text Classification", "Contradiction Detection"]
+    },
+    {
+      title: "Plant Disease Detection for Guava and Mango using YOLO and Faster R-CNN",
+      authors: "Rida Javed Kutty, Kruthi Shetty, Khushi Donthi, Anuj Patil, Natarajan Subramanyam",
+      conference: "IEEE Xplore",
+      date: "2024",
+      url: "https://ieeexplore.ieee.org/document/10503209",
+      description: "Developed computer vision models achieving 85% precision in detecting diseases in guava and mango plants.",
+      tags: ["Computer Vision", "YOLO", "Agriculture", "Disease Detection"]
+    },
+    {
+      title: "Real Time Fire and Smoke Detection in Surveillance Videos using Deep Learning",
+      authors: "Rida Javed Kutty, Anshula Aithal, Kruthi U Shetty, Mohanna",
+      conference: "Springer",
+      date: "2025",
+      url: "https://link.springer.com/chapter/10.1007/978-981-97-8093-8_1",
+      description: "Engineered real-time fire and smoke detection system using YOLOv8 with 85% precision across multiple environmental conditions.",
+      tags: ["Computer Vision", "YOLOv8", "Safety Systems", "Real-time Detection"]
+    }
+  ]
 };
 
 // Blogs Section
@@ -324,7 +391,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false// Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -343,7 +410,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -356,15 +423,15 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
+// Resume Section
 // Resume Section
 const resumeSection = {
   title: "Resume",
   subtitle: "Feel free to download my resume",
-
-  // Please Provide with Your Podcast embeded Link
+  resume: "https://drive.google.com/file/d/1oU5XuZKK21U0UqKknKaLXNzlqWzteonT/view?usp=sharing", // Replace with your actual resume URL
   display: true // Set false to hide this section, defaults to true
 };
 
@@ -372,18 +439,17 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  number: "+1 (540) 934-8738",
+  email_address: "rkutty@umd.edu"
 };
 
-// Twitter Section
-
-const twitterDetails = {
-  userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+// LinkedIn Section (instead of Twitter)
+const linkedinDetails = {
+  userName: "https://linkedin.com/in/ridajavedkutty/", // Your LinkedIn username from: linkedin.com/in/ridajavedkutty/
+  display: true // Set true to display this section
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,
@@ -397,11 +463,12 @@ export {
   openSource,
   bigProjects,
   achievementSection,
+  publicationsSection,
   blogSection,
   talkSection,
   podcastSection,
   contactInfo,
-  twitterDetails,
+  linkedinDetails,
   isHireable,
   resumeSection
 };
