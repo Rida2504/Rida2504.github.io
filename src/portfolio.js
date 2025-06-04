@@ -219,7 +219,7 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
@@ -444,9 +444,9 @@ const contactInfo = {
 };
 
 // LinkedIn Section (instead of Twitter)
-const linkedinDetails = {
+const twitterDetails = {
   userName: "https://linkedin.com/in/ridajavedkutty/", // Your LinkedIn username from: linkedin.com/in/ridajavedkutty/
-  display: true // Set true to display this section
+  display: false // Set true to display this section
 };
 
 const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
@@ -468,7 +468,7 @@ export {
   talkSection,
   podcastSection,
   contactInfo,
-  linkedinDetails,
+  twitterDetails,
   isHireable,
   resumeSection
 };
