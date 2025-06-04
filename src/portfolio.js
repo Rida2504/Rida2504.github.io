@@ -111,7 +111,7 @@ const educationInfo = {
   schools: [
     {
       schoolName: "University of Maryland",
-      logo: require("./assets/images/umdnew1logo.png"), // You'll need to add this image
+      logo: require("./assets/images/umdnewlogo1.png"), // You'll need to add this image
       subHeader: "Master's in Applied Machine Learning",
       duration: "August 2024 - Present",
       desc: "GPA: 3.45/4.0",
