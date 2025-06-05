@@ -1,4 +1,5 @@
 @import "../../_globalColor";
+
 .publications-container {
   display: flex;
   flex-direction: column;
@@ -7,10 +8,11 @@
   margin: 0px auto;
   margin-top: 2rem;
 }
+
 .publications-heading {
-  font-size: 56px;
+  font-size: 56px; // Match education section
   font-weight: 400;
-  font-family: "Google Sans Regular";
+  //font-family: "Google Sans Regular";
   margin: 0px;
   color: $titleColor;
   
@@ -19,15 +21,16 @@
     color: #ffffff;
   }
 }
+
 .publications-subtitle {
   text-transform: uppercase;
   margin: 0px;
-  margin-top: 15px; // Increased from 5px to 15px for better spacing
+  margin-top: 5px; // Back to original spacing
   margin-bottom: 20px;
-  font-size: 16px;
+  font-size: 16px; // Back to original size
   color: $subTitle;
   font-weight: 400;
-  font-family: "Google Sans Regular";
+  //font-family: "Google Sans Regular";
   letter-spacing: 0.75px;
   line-height: 1.5;
   
@@ -36,16 +39,19 @@
     color: #cccccc;
   }
 }
+
 .publications-header {
-  text-align: center;
+  text-align: left; // Changed from center to left to match other sections
   margin-bottom: 30px;
 }
+
 .publications-cards-div {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 1.5rem;
   margin-top: 20px;
 }
+
 .publication-card {
   background-color: #ffffff;
   border: 1px solid #e1e8ed;
@@ -55,11 +61,13 @@
   transition: all 0.2s ease-in-out;
   margin-bottom: 20px;
   cursor: default;
+  
   &:hover {
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
     transform: scale(1.02);
   }
 }
+
 .publication-card-dark {
   background-color: #1a1a1a;
   border: 1px solid rgba(255, 255, 255, 0.1);
@@ -69,16 +77,19 @@
   transition: all 0.2s ease-in-out;
   margin-bottom: 20px;
   cursor: default;
+  
   &:hover {
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.4);
     transform: scale(1.02);
   }
 }
+
 .publication-detail {
   display: flex;
   flex-direction: column;
   gap: 12px;
 }
+
 .card-title {
   color: $titleColor;
   font-size: 22px;
@@ -87,6 +98,7 @@
   font-family: "Google Sans Medium";
   margin: 0px;
 }
+
 .card-subtitle {
   color: $subTitle;
   font-size: 17px;
@@ -95,6 +107,7 @@
   font-family: "Google Sans Regular";
   margin: 0px;
 }
+
 .publication-description {
   color: $subTitle;
   font-size: 16px;
@@ -104,12 +117,14 @@
   margin: 8px 0px;
   text-align: left;
 }
+
 .publication-tags {
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
   margin: 10px 0px;
 }
+
 .publication-tag {
   background-color: #007bff;
   color: white;
@@ -121,15 +136,18 @@
   text-transform: uppercase;
   letter-spacing: 0.5px;
 }
+
 .publication-tag.dark-mode {
   background-color: #0056b3;
   color: white;
 }
+
 .publication-links {
   display: flex;
   gap: 15px;
   margin-top: 15px;
 }
+
 .publication-link {
   color: #007bff;
   text-decoration: none;
@@ -141,6 +159,7 @@
   border-radius: 6px;
   transition: all 0.3s;
   display: inline-block;
+  
   &:hover {
     background-color: #007bff;
     color: white;
@@ -148,52 +167,61 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   }
 }
+
 .publication-link.dark-mode {
   color: #0056b3;
   border-color: #0056b3;
+  
   &:hover {
     background-color: #0056b3;
     color: white;
   }
 }
+
 /* Media Queries */
 @media (max-width: 1380px) {
   .publications-heading {
-    font-size: 50px;
+    font-size: 40px; // Match education breakpoint
   }
 }
+
 @media (max-width: 768px) {
   .publications-heading {
-    font-size: 40px;
-    text-align: center;
+    font-size: 30px; // Match education breakpoint
+    text-align: center; // Match education center alignment on mobile
   }
   
   .publications-subtitle {
-    font-size: 16px;
+    font-size: 16px; // Keep consistent
     margin-top: 12px; // Adjusted for mobile
   }
+  
   .publications-cards-div {
     grid-template-columns: 1fr;
     gap: 1rem;
   }
+  
   .publication-card,
   .publication-card-dark {
     padding: 1.5rem;
   }
+  
   .card-title {
     font-size: 20px;
   }
+  
   .publication-description {
     font-size: 15px;
   }
 }
+
 @media (max-width: 480px) {
   .publications-container {
     width: 95%;
   }
   
   .publications-heading {
-    font-size: 30px;
+    font-size: 30px; // Keep same as 768px breakpoint like education
   }
   
   .publication-card,
