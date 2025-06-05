@@ -23,7 +23,7 @@
   margin-top: 5px;
   margin-bottom: 20px;
   font-size: 16px;
-  color: $cardSubtitle;
+  color: $subTitle;
   font-weight: 400;
   font-family: "Google Sans Regular";
   letter-spacing: 0.75px;
@@ -43,8 +43,8 @@
 }
 
 .publication-card {
-  background-color: $lightBackground1;
-  border: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  border: 1px solid #e1e8ed;
   border-radius: 10px;
   padding: 2rem;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -59,7 +59,7 @@
 }
 
 .publication-card-dark {
-  background-color: $cardColor;
+  background-color: #1a1a1a;
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 10px;
   padding: 2rem;
@@ -90,7 +90,7 @@
 }
 
 .card-subtitle {
-  color: $cardSubtitle;
+  color: $subTitle;
   font-size: 17px;
   line-height: 1.5;
   font-weight: 400;
@@ -116,7 +116,7 @@
 }
 
 .publication-tag {
-  background-color: $buttonColor;
+  background-color: #007bff;
   color: white;
   padding: 4px 12px;
   border-radius: 20px;
@@ -128,8 +128,8 @@
 }
 
 .publication-tag.dark-mode {
-  background-color: $skillsColor;
-  color: $lightBackground1;
+  background-color: #0056b3;
+  color: white;
 }
 
 .publication-links {
@@ -139,19 +139,19 @@
 }
 
 .publication-link {
-  color: $buttonColor;
+  color: #007bff;
   text-decoration: none;
   font-weight: 600;
   font-family: "Google Sans Medium";
   font-size: 16px;
   padding: 8px 16px;
-  border: 2px solid $buttonColor;
+  border: 2px solid #007bff;
   border-radius: 6px;
   transition: all 0.3s;
   display: inline-block;
 
   &:hover {
-    background-color: $buttonColor;
+    background-color: #007bff;
     color: white;
     transform: translateY(-2px);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -159,12 +159,12 @@
 }
 
 .publication-link.dark-mode {
-  color: $skillsColor;
-  border-color: $skillsColor;
+  color: #0056b3;
+  border-color: #0056b3;
 
   &:hover {
-    background-color: $skillsColor;
-    color: $lightBackground1;
+    background-color: #0056b3;
+    color: white;
   }
 }
 
@@ -178,6 +178,7 @@
 @media (max-width: 768px) {
   .publications-heading {
     font-size: 40px;
+    text-align: center;
   }
   
   .publications-subtitle {
@@ -209,7 +210,7 @@
   }
   
   .publications-heading {
-    font-size: 35px;
+    font-size: 30px;
   }
   
   .publication-card,
