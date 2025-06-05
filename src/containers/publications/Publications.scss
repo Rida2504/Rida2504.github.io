@@ -1,0 +1,219 @@
+@import "../../_globalColor";
+
+.publications-container {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  padding: 20px 0px;
+  margin: 0px auto;
+  margin-top: 2rem;
+}
+
+.publications-heading {
+  font-size: 56px;
+  font-weight: 400;
+  font-family: "Google Sans Regular";
+  margin: 0px;
+  color: $titleColor;
+}
+
+.publications-subtitle {
+  text-transform: uppercase;
+  margin: 0px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  color: $cardSubtitle;
+  font-weight: 400;
+  font-family: "Google Sans Regular";
+  letter-spacing: 0.75px;
+  line-height: 1.5;
+}
+
+.publications-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.publications-cards-div {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+  margin-top: 20px;
+}
+
+.publication-card {
+  background-color: $lightBackground1;
+  border: 1px solid $separatorColor;
+  border-radius: 10px;
+  padding: 2rem;
+  box-shadow: $boxShadow;
+  transition: all 0.2s ease-in-out;
+  margin-bottom: 20px;
+  cursor: default;
+
+  &:hover {
+    box-shadow: $boxShadowHover;
+    transform: scale(1.02);
+  }
+}
+
+.publication-card-dark {
+  background-color: $cardColor;
+  border: 1px solid $divider;
+  border-radius: 10px;
+  padding: 2rem;
+  box-shadow: $achievementCardShadow;
+  transition: all 0.2s ease-in-out;
+  margin-bottom: 20px;
+  cursor: default;
+
+  &:hover {
+    box-shadow: $achievementCardHoverShadow;
+    transform: scale(1.02);
+  }
+}
+
+.publication-detail {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.card-title {
+  color: $titleColor;
+  font-size: 22px;
+  line-height: 24px;
+  font-weight: 700;
+  font-family: "Google Sans Medium";
+  margin: 0px;
+}
+
+.card-subtitle {
+  color: $cardSubtitle;
+  font-size: 17px;
+  line-height: 1.5;
+  font-weight: 400;
+  font-family: "Google Sans Regular";
+  margin: 0px;
+}
+
+.publication-description {
+  color: $subTitle;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 400;
+  font-family: "Google Sans Regular";
+  margin: 8px 0px;
+  text-align: left;
+}
+
+.publication-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 10px 0px;
+}
+
+.publication-tag {
+  background-color: $buttonColor;
+  color: white;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 500;
+  font-family: "Google Sans Medium";
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.publication-tag.dark-mode {
+  background-color: $skillsColor;
+  color: $lightBackground1;
+}
+
+.publication-links {
+  display: flex;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.publication-link {
+  color: $buttonColor;
+  text-decoration: none;
+  font-weight: 600;
+  font-family: "Google Sans Medium";
+  font-size: 16px;
+  padding: 8px 16px;
+  border: 2px solid $buttonColor;
+  border-radius: 6px;
+  transition: all 0.3s;
+  display: inline-block;
+
+  &:hover {
+    background-color: $buttonColor;
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+}
+
+.publication-link.dark-mode {
+  color: $skillsColor;
+  border-color: $skillsColor;
+
+  &:hover {
+    background-color: $skillsColor;
+    color: $lightBackground1;
+  }
+}
+
+/* Media Queries */
+@media (max-width: 1380px) {
+  .publications-heading {
+    font-size: 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  .publications-heading {
+    font-size: 40px;
+  }
+  
+  .publications-subtitle {
+    font-size: 16px;
+  }
+
+  .publications-cards-div {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .publication-card,
+  .publication-card-dark {
+    padding: 1.5rem;
+  }
+
+  .card-title {
+    font-size: 20px;
+  }
+
+  .publication-description {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .publications-container {
+    width: 95%;
+  }
+  
+  .publications-heading {
+    font-size: 35px;
+  }
+  
+  .publication-card,
+  .publication-card-dark {
+    padding: 1rem;
+  }
+}
